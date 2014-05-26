@@ -51,9 +51,10 @@ require 'fbconfig.php';   // Include fbconfig.php file
           </div>
         </div>
       
-	</div><!-- End row -->
+      </div><!-- End row -->
       
-    </div><!-- End container -->
+</div><!-- End container -->
+
 
 <center><center>
 <div>

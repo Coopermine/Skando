@@ -8,7 +8,7 @@ require 'fbconfig.php';   // Include fbconfig.php file
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
 
 <head>
- <link href="css/bootstrap.min.css" rel="stylesheet"> 
+ <link href="css/bootstrap.css" rel="stylesheet"> 
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
