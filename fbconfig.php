@@ -22,7 +22,7 @@ if ($user) {
 }
 if ($user) {
   $logoutUrl = $facebook->getLogoutUrl(array(
-		 'next' => 'http://azuredirectip.cloudapp.net/bot/logout.php',  // Logout URL full path
+		 'next' => 'http://azuredirectip.cloudapp.net/bot/Skando/logout.php',  // Logout URL full path
 		));
 } else {
  $loginUrl = $facebook->getLoginUrl(array(
