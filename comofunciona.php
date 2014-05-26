@@ -8,7 +8,7 @@ require 'fbconfig.php';   // Include fbconfig.php file
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
 
   <head>
- <link href="css/bootstrap.min.css" rel="stylesheet"> 
+ <link href="css/bootstrap.css" rel="stylesheet"> 
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <body>
@@ -23,7 +23,7 @@ require 'fbconfig.php';   // Include fbconfig.php file
         
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="http://thelittlehawk.com/wp-content/uploads/2011/02/wifi-logo4.jpg" alt="">
+            <img src="img/wifi-logo.jpg" alt="">
               <div class="caption">
                 <h4>Sem acesso?</h4>
                 <p>Cansado de perguntar a senha wifi dos locais que você mais gosta de frequentar? O Skando é a solução para seus problemas. Veja como é simples usar.</p>
@@ -33,7 +33,7 @@ require 'fbconfig.php';   // Include fbconfig.php file
 
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="http://blog.marketwired.com/wp-content/uploads/2013/11/facebook_twitter-500x300.jpg" alt="">
+            <img src="img/facebookTwitter.jpg" alt="">
               <div class="caption">
                 <h4>Redes sociais</h4>
                 <p>Use seu facebook ou Twitter para logar na internet, sem precisar de senhas. Encontre pessoas que gostam de frequentar os mesmos locais que você.</p>
@@ -43,7 +43,7 @@ require 'fbconfig.php';   // Include fbconfig.php file
 
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="promocao.jpg" alt="">
+            <img src="img/promocao.jpg" alt="">
               <div class="caption">
                 <h4>Promoções exclusivas</h4>
                 <p>Cada vez que você acessa, acumula pontos que podem ser trocados por vários premios. Ta esperando o que? Começe a acumular seus pontos.</p>
