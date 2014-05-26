@@ -1,0 +1,41 @@
+<?php
+require 'fbconfig.php';   // Include fbconfig.php file
+?>
+<!doctype html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+<link href="http://www.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet"> 
+ </head>
+  <body>
+  <?php if ($user): ?>      <!--  After user login  -->
+<div class="container">
+<div class="hero-unit">
+  <h1>Olá <?php echo $fbuname; ?></h1>
+  </div>
+<div class="span4">
+ <ul class="nav nav-list">
+<li class="nav-header">Image</li>
+	<li><img src="https://graph.facebook.com/<?php echo $user; ?>/picture"></li>
+<li class="nav-header">Facebook ID</li>
+<li><?php echo  $fbid; ?></li>
+<li class="nav-header">Nome</li>
+<li><?php echo $fbuname; ?></li>
+<li class="nav-header">Nome completo</li>
+<li><?php echo $fbfullname; ?></li>
+<div><a href="<?php echo $logoutUrl; ?>">Logout</a></div>
+</ul></div></div>
+    <?php else: ?>     <!-- Before login --> 
+<div class="container">
+<div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>      <a href="<?php echo $loginUrl; ?>">Logar com Facebook</a></div>
+      </div></center>
+    <?php endif ?>
+  </body>
+</html>
