@@ -16,9 +16,9 @@ require 'fbconfig.php';   // Include fbconfig.php file
   <div class="panel-heading"><center>Skando</center></div>
   <div class="panel-body">
 
-<center>
+
 <div class="container" id="tourpackages-carousel">
-      
+      <center>
       <div class="row">
         
         <div class="col-xs-18 col-sm-6 col-md-3">
@@ -52,9 +52,9 @@ require 'fbconfig.php';   // Include fbconfig.php file
         </div>
       
       </div><!-- End row -->
-      
+      </center>
 </div><!-- End container -->
-</center>
+
 
 <center><center>
 <div>

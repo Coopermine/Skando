@@ -1,4 +1,4 @@
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+﻿<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?php
 require 'fbconfig.php';   // Include fbconfig.php file
 
@@ -42,7 +42,7 @@ require 'fbconfig.php';   // Include fbconfig.php file
       <center>
         <div class="container">
           <center>
-            <img src="wireless.png" class="img-responsive" alt="Skando">
+            <img src="img/skando.png" class="img-responsive" alt="Skando">
           </center>
           <div>
             <a href="<?php echo $loginUrl; ?>">
